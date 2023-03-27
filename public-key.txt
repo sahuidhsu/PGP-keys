@@ -1,6 +1,3 @@
-# PGP-keys
-Public Key
-```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQENBGQiEvQBCAC08dpApgtg0Am6uscgBW1QEWkDFM76aDHRAvhvfFqYaC2hY8/x
@@ -50,4 +47,3 @@ Jv3HW1v3Zm0K97D+nhco6ozPTfKDorVhc405X2druXhE+FJN86ScCUIIQshLQvsr
 i5fUWMSTH+gaOe/dM4IjeA==
 =gf2R
 -----END PGP PUBLIC KEY BLOCK-----
-```
