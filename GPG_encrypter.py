@@ -32,7 +32,7 @@ while running:
         for line in iter(input, stopword):
             cipher += line + "\n"
         print("正在解密...")
-        command = "echo '" + cipher + "' | gpg -d -a"
+        command = "echo '" + cipher + "' | gpg -d -a -q"
         os.system(command)
         print("解密完成！")
     elif choice == "0":
