@@ -33,7 +33,10 @@ while running:
             cipher += line + "\n"
         print("正在解密...")
         command = "echo '" + cipher + "' | gpg -d -a -q"
+        print("解密结果：")
+        print("-" * 50)
         os.system(command)
+        print("\n" + "-" * 50)
         print("解密完成！")
     elif choice == "0":
         print("感谢你的使用")
