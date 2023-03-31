@@ -20,8 +20,12 @@ while running:
         recipients = []
         for i in range(num_of_recipients):
             recipients.append(input("请输入收件人" + str(i+1) + "的名字或秘钥ID："))
+        sign = input("是否需要签名这个信息？(y/N)")
+        if sign == "y":
+            command = "echo '" + text + "' | gpg -se -r " + " -r ".join(recipients) + " -a"
+        else:
+            command = "echo '" + text + "' | gpg -e -r " + " -r ".join(recipients) + " -a"
         print("正在加密...")
-        command = "echo '" + text + "' | gpg -e -r " + " -r ".join(recipients) + " -a"
         os.system(command)
         print("加密完成！")
     elif choice == "2":
