@@ -6,3 +6,6 @@
 This repository contains:
 - [My PGP public key](public-key.txt)
 - A simple [plaintext encrypt/decrypt script](GPG_encrypter.py) written in Python (yep, I'm that lazy)
+
+### 指纹 Fingerprint
+D675 3F9C 1156 B3C2 CE25 A1C7 9874 E400 992E C207
